@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
             val value1 = edittext1.text.toString()
             foods.add(value1)
             edittext1.getText().clear();
-            //Toast.makeText(applicationContext, foods.get(foods.lastIndex).toString(), Toast.LENGTH_LONG).show()
         }
     }
     fun addListenerOnButtonReccomend() {
